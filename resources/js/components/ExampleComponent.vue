@@ -125,16 +125,14 @@ export default {
             if(this.employee.id == '')
             {
                 this.createEmployee();
-                this.EmployeeLoad();
             }else{
                 this.updateEmployee();
-                this.EmployeeLoad();
             }
         },
 
         async createEmployee(){
             await axios.post('/api/save',this.employee).then(response=>{
-                this.$router.push({name:"Employee"})
+                this.$router.push({name:"Employee"}),
                 this.EmployeeLoad()
             }).catch(error=>{
                 console.log(error)
