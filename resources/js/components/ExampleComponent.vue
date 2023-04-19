@@ -122,11 +122,13 @@ export default {
         },
 
         save(){
-            if(this.employee.id === '')
+            if(this.employee.id == '')
             {
                 this.createEmployee();
+                this.EmployeeLoad();
             }else{
                 this.updateEmployee();
+                this.EmployeeLoad();
             }
         },
 
