@@ -1,0 +1,12 @@
+1.Install requirements: Xampp, Composer, Node.js, PHP version 8^
+2.Clone this repository to your local | $git clone https://github.com/Meyzan16/vue-laravel.git
+3.Copy & paste .env.example then rename to .env
+4.Change DB environment such as name and password
+5.Run in terminal and wait until finish $composer install or $composer update
+6.Run in terminal and wait until finish $npm i
+7.Run in terminal and wait until finish $npm i axios
+7.Run in terminal and wait until finish $php artisan key:generate
+8.Run in terminal and wait until finish $php artisan migrate
+10.Run in terminal and wait until finish $php artisan db:seed
+11. Run in terminal and wait until $npm run dev and
+12.Run in terminal and wait until finish $php artisan serve

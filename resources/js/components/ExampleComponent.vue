@@ -155,7 +155,7 @@ export default {
                         this.employee.mobile = '';
                     },
                     this.EmployeeLoad(),
-                    window.location.reload()
+                    // window.location.reload()
                     // window.refresh()
                 )
             }
